@@ -1,4 +1,4 @@
-# 1D Neutron Diffusion Solver (FEM & FDM)
+# 1D Neutron Diffusion Solver (FEM)
 
 Este repositorio contiene una implementación en **MATLAB** orientada a objetos para resolver la ecuación de difusión de neutrones en 1D. El código permite calcular el factor de multiplicación efectivo ($k_{eff}$) y los modos del flujo neutrónico ($\phi$) para reactores homogéneos y heterogéneos.
 
@@ -9,8 +9,7 @@ Este repositorio contiene una implementación en **MATLAB** orientada a objetos 
     * **2 Grupos (2g):** Modelo acoplado Rápido-Térmico.
 * **Métodos Numéricos:**
     * **FEM:** Método de Elementos Finitos con polinomios de Lagrange de orden variable.
-    * **FDM:** Método de Diferencias Finitas (centradas).
-* **Geometría:** Soporte para mallas no uniformes y configuraciones heterogéneas.
+* **Geometría:** Soporte unidimensional para mallas no uniformes y configuraciones heterogéneas.
 
 ## Estructura del Código
 
